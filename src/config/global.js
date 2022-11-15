@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Riesgos y peligros',
+    descripcionCurso:
+      'Conocer los riesgos que afectan la conducción y que terminan en accidentes de tránsito, permite a los intervinientes tener la capacidad de ayudar y proveer los primeros auxilios, manteniendo las condiciones de vida de los afectados y procurando evitar que las lesiones posteriores empeoren su condición, al igual que manejar lo relacionado con la escena donde se presente la contingencia.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -32,31 +37,51 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Fundamentos de los riesgos en tránsito',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo:
+          'Técnicas de comunicación y códigos para comunicación de emergencias',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Técnicas de aseguramiento de la escena de emergencia',
         desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Primeros auxilios',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: 'Características',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo: 'Atención básica y procedimientos',
+            hash: 't_4_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.3',
+            titulo: 'Características de los escenarios',
+            hash: 't_4_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -101,32 +126,46 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '1. Fundamentos de los riesgos en tránsito.',
+      referencia:
+        'Poder público, Rama legislativa. (Agosto 6 de 2002). Ley 769 de 2002. Por la cual se expide el Código Nacional de Tránsito Terrestre y se dictan otras disposiciones.',
+      tipo: 'Documento legal',
+      link:
+        'http://www.secretariasenado.gov.co/senado/basedoc/ley_0769_2002.html',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Accidente de tránsito',
+      significado:
+        'Es el que ocurre sobre la vía y se presenta súbita e inesperadamente, determinado por condiciones y actos irresponsables potencialmente previsibles, atribuidos a factores humanos, vehículos preponderantemente automotores, condiciones climatológicas, señalización y caminos, los cuales ocasionan pérdidas prematuras de vidas humanas y/o lesiones, así como secuelas físicas o psicológicas, perjuicios materiales y daños a terceros.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Lesión',
+      significado:
+        'Alteración o daño que se produce en alguna parte del cuerpo a causa de un golpe, una enfermedad, etc.',
+    },
+    {
+      termino: 'Primeros auxilios',
+      significado:
+        'Asistencia de urgencia que se presta a una persona en caso de accidente o enfermedad repentina.',
+    },
+    {
+      termino: 'Riesgo',
+      significado: 'Situación en que puede darse esa posibilidad.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia: 'Leyes.co (2014 - 2021). Código penal.',
+      link:
+        'https://leyes.co/codigo_penal/152.htm#:~:text=El%20que%2C%20con%20ocasi%C3%B3n%20y,seis%20(66.66)%20a%20ciento%20cincuenta',
+    },
+    {
+      referencia:
+        'Poder público, Rama legislativa. (Agosto 6 de 2002). Ley 769 de 2002. Por la cual se expide el Código Nacional de Tránsito Terrestre y se dictan otras disposiciones.',
+      link:
+        'http://www.secretariasenado.gov.co/senado/basedoc/ley_0769_2002.html',
     },
   ],
   creditos: {
@@ -140,29 +179,31 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Responsable del equipo de diseño instruccional',
+        cargo: 'Líder Equipo Desarrollo Curricular',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
-        cargo: '',
-        centro: '',
+        nombre: 'Juan Carlos García Vargas',
+        cargo: 'Experto Temático',
+        centro:
+          'Regional Distrito Capital - Centro de Tecnologías del Transporte',
       },
       {
-        nombre: '',
-        cargo: '',
-        centro: '',
+        nombre: 'Gloria Amparo López Escudero',
+        cargo: 'Diseñadora Instruccional',
+        centro:
+          'Regional Norte de Santander - Centro de la Industria, la Empresa y Los Servicios',
       },
       {
-        nombre: '',
-        cargo: '',
-        centro: '',
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Asesor Metodológico',
+        centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
       },
       {
-        nombre: '',
-        cargo: '',
-        centro: '',
+        nombre: 'Sandra Patricia Hoyos Sepúlveda',
+        cargo: 'Corrección de estilo',
+        centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
       },
     ],
     desarrolloProducto: [
@@ -173,7 +214,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Sofia Suarez Suarez',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -185,7 +226,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Diego Fernando Velasco Güiza',
         cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -201,21 +242,6 @@ export default {
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Responsable del equipo de gestión de repositorio',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Milady Tatiana Villamil Castellanos',
-        cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],

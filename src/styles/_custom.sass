@@ -2,18 +2,201 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 15%
+    left: -15%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float2 4.5s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 12%
+    right: 10%
+  &-3
+    animation: float1 5.5s ease-in-out infinite alternate
+    position: absolute
+    top: 70%
+    right: 3%
 
 @keyframes float1
   0%
-    transform: translateY(20px)
-
+    transform: translateY(30px)
   100%
     transform: translateY(0px)
+
+@keyframes float2
+  0%
+    transform: translateX(30px)
+  100%
+    transform: translateX(0px)
+  
+.banner-principal__row .banner-principal__img
+  width: 34%
+  left: -45px
+  @media (max-width: $bp-max-md)
+    left: 0px
+  
+.titulo-principal.color-acento-contenido .titulo-principal__numero span, .linea-tiempo-d.color-acento-contenido .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  color: $black
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/img01.png") !important
+
+.BG01
+  background: linear-gradient(to right, #fff, #FFF7E0)
+
+.BG02
+  background-color: $black
+
+.BGR03
+  background-color: #F6F6F6
+
+.BGR03.acordion__activo
+  background-color: #E8E8E8
+
+.BG04, .BG04A, .BGR04
+  background-color: #FEE3C0
+
+.BG05
+  background-color: #D9D9D9
+
+.BGR06
+  background-color: #FFD817
+
+.BGR07
+  background-color: #FFF5C5
+
+.BGIMG01, .BGR03, .BGR04, .BG04A, .BGR06,
+  border-radius: 15px
+
+.BG02
+  border-radius: 5px
+
+.BGR07
+  border-radius: 10px
+  box-shadow: 2px 2px 5px #707070
+
+.BGIMG01
+  background-image: url("../assets/curso/fondos/img01.png")
+
+.BGIMG02
+  background-image: url("../assets/curso/fondos/img02.png")
+
+.BGIMG01, .BGIMG02
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+
+.BGIMG02
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.slyder-a__bullets__item--active
+  background-color: $black !important
+
+.slyder-a__bullets__item
+  background-color: #A5927B
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #F4F4F5
+  @media (max-width: $bp-max-xs)
+    width: 25px
+    height: 25px
+  
+.slyder-a__bullets__item
+  @media (max-width: $bp-max-xs)
+    width: 7px
+    height: 7px
+    margin: 0 5px
+  
+.img01
+  position: relative
+  right: -50px
+
+.img02
+  position: relative
+  left: -50px
+  @media (max-width: $bp-max-md)
+    left: -30px
+  
+.cajon-b.color-primario:before
+  background-color: #FFF5C5
+  right: 0
+  left: 77%
+
+.cajon-b.color-secundario:before
+  background-color: #F4F8FA
+  right: 77%
+  left: 0
+
+.cajon-b.color-acento-botones:before
+  background-color: #DEE9F0
+  right: 0
+  left: 77%
+
+.cajon-b.color-acento-contenido:before
+  background-color:#FCC781
+  right: 77%
+  left: 0
+
+.cajon-b.color-secundario:before, .cajon-b.color-acento-botones:before, .cajon-b.color-acento-contenido:before, .cajon-b.color-primario:before
+  opacity: unset
+  top: 0
+  bottom: 0
+
+.tarjeta.color-primario
+  background-color: #FFF5C5
+  width: 100%
+
+.BGR04
+  height: 222px
+  @media (max-width: $bp-max-xl)
+    height: 225px
+  @media (max-width: $bp-max-lg)
+    height: 228px
+  @media (max-width: $bp-max-md)
+    height: 239px
+  @media (max-width: $bp-max-sm)
+    height: 100%
+  
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title, .linea-tiempo-d__item__content__slot
+  background-color: #FFF5C5
+
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title
+  border-radius: 10px 10px 0 0
+
+.linea-tiempo-d__item__content__slot
+  border-radius: 0 0 10px 10px
+
+.tarjeta--boton.color-primario:active
+  background-color: #FFEB8B
+
+.tarjeta--boton.color-primario
+  height: 359px
+  @media (max-width: $bp-max-xl)
+    height: 406px
+  @media (max-width: $bp-max-lg)
+    height: 432px
+  @media (max-width: $bp-max-md)
+    height: 366px
+  @media (max-width: $bp-max-sm)
+    height: 100%
+  
+.BG04, .BG05
+  height: 179px
+  @media (max-width: $bp-max-lg)
+    height: 203px
+  @media (max-width: $bp-max-md)
+    height: 275px
+  @media (max-width: $bp-max-sm)
+    height: 100%
+  
+.BGR07
+  height: 314px
+  @media (max-width: $bp-max-lg)
+    height: 312px
+  @media (max-width: $bp-max-md)
+    height: 300px
+  @media (max-width: $bp-max-sm)
+    height: 100%
+  
+.bloque-texto-d.color-primario:before
+  background-color: #FFF7D0

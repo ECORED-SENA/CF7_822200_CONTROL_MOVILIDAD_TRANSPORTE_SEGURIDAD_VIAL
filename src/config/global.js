@@ -157,7 +157,8 @@ export default {
   ],
   referencias: [
     {
-      referencia: 'Leyes.co (2014 - 2021). Código penal.',
+      referencia:
+        'Leyes.co&nbsp;(2014&nbsp;-&nbsp;2021).&nbsp;Código&nbsp;penal.',
       link:
         'https://leyes.co/codigo_penal/152.htm#:~:text=El%20que%2C%20con%20ocasi%C3%B3n%20y,seis%20(66.66)%20a%20ciento%20cincuenta',
     },
@@ -179,25 +180,25 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Líder Equipo Desarrollo Curricular',
+        cargo: 'Líder equipo desarrollo curricular',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Juan Carlos García Vargas',
-        cargo: 'Experto Temático',
+        cargo: 'Experto temático',
         centro:
           'Regional Distrito Capital - Centro de Tecnologías del Transporte',
       },
       {
         nombre: 'Gloria Amparo López Escudero',
-        cargo: 'Diseñadora Instruccional',
+        cargo: 'Diseñadora instruccional',
         centro:
           'Regional Norte de Santander - Centro de la Industria, la Empresa y Los Servicios',
       },
       {
         nombre: 'Andrés Felipe Velandia Espitia',
-        cargo: 'Asesor Metodológico',
+        cargo: 'Asesor metodológico',
         centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
       },
       {
@@ -232,8 +233,8 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Validación de diseño y contenido',
+        nombre: 'Yuli Marcela Gómez Tarazona',
+        cargo: 'Validación de contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },

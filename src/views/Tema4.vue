@@ -19,13 +19,13 @@
         figure 
           img(src="@/assets/curso/tema4/img02.jpg")
         .BG05.p-4
-          .h4.text-center Emergencia
+          .h4 Emergencia
           p.mb-0 Es un incidente donde la salud de la víctima se encuentra en inminente peligro y riesgo de muerte, donde se requiere atención inmediata.
       .col-md-6.px-0
         figure  
           img(src="@/assets/curso/tema4/img03.jpg")
         .BG04.p-4
-          .h4.text-center Urgencia
+          .h4 Urgencia
           p.mb-0 Situación donde hay riesgos y la salud puede empeorar y convertirse en una emergencia; algunas se pueden tratar con primeros auxilios básicos sin necesidad de maniobras más especializadas y otras se pueden resolver mientras llegan los profesionales de la salud.
 
     .row.justify-content-center.align-items-center.mb-5
@@ -53,7 +53,7 @@
                 p.mb-0 Dichos aspectos están contenidos en el Código Penal Colombiano en su artículo 152 y los puede consultar en la siguiente página:
               .col-sm-auto
                 a.boton.color-acento-botones.texto-blanco(href="https://leyes.co/codigo_penal/152.htm#&#58;~&#58;text=El%20que%2C%20con%20ocasi%C3%B3n%20y,seis%20&#40;66.66&#41;%20a%20ciento%20cincuenta" target="_blank")
-                  span Ver video
+                  span Ir al sitio
 
     .cajon-b.color-secundario.p-3.mb-4(data-aos="flip-up")
       .row.align-items-center
@@ -148,7 +148,7 @@
             img(src="@/assets/curso/tema4/img13.png")
         .row.justify-content-center
           .col-lg-5.order-lg-1.order-2
-            p.mb-0 Revisar si tiene signos vitales, si están débiles (puede estar presentando un shock) o si no hay (puede estar presentando un paro cardiaco).
+            p.mb-0 Revisar si tiene signos vitales, si están débiles (puede estar presentando un #[em shock]) o si no hay (puede estar presentando un paro cardiaco).
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema4/img14.png")
         .row.justify-content-center
@@ -243,7 +243,7 @@
                   | Revisar araña de parabrisas.
                 li
                   <i class="fas fa-check" style="color:#F88F05"></i>
-                  | Deformaciones en el volante, cinturón, airbag.
+                  p.mb-0 Deformaciones en el volante, cinturón, #[em airbag].
                 li
                   <i class="fas fa-check" style="color:#F88F05"></i>
                   | Deformación de la cabina.
@@ -257,7 +257,7 @@
                   | Revisar araña de parabrisas.
                 li
                   <i class="fas fa-check" style="color:#F88F05"></i>
-                  | Deformaciones en el volante, cinturón, airbag.
+                  p.mb-0 Deformaciones en el volante, cinturón, #[em airbag].
                 li
                   <i class="fas fa-check" style="color:#F88F05"></i>
                   | Deformación de la cabina.
@@ -296,7 +296,7 @@
                   | Deformidad en las salpicaderas. Vehículo.
                 li
                   <i class="fas fa-check" style="color:#F88F05"></i>
-                  | Deformidad en pedales, cinturón, airbag.
+                  p.mb-0 Deformidad en pedales, cinturón, #[em airbag].
                 li
                   <i class="fas fa-check" style="color:#F88F05"></i>
                   | Deformación de la cabina.
@@ -329,7 +329,7 @@
               ul.lista-ul--color
                 li
                   <i class="fas fa-check" style="color:#F88F05"></i>
-                  | Revisar daños en vidrios laterales, cinturón, airbag.
+                  p.mb-0 Revisar daños en vidrios laterales, cinturón, #[em airbag].
                 li
                   <i class="fas fa-check" style="color:#F88F05"></i>
                   | Deformación de la cabina.
@@ -359,10 +359,10 @@
               ul.lista-ul--color
                 li
                   <i class="fas fa-check" style="color:#F88F05"></i>
-                  | Revisar altura en reposacabezas, cinturón, airbag, cabina.
+                  p.mb-0 Revisar altura en reposacabezas, cinturón, #[em airbag], cabina.
             td Lesión cervical.
           tr
-            td.text-center EXPULSION FUERA DEL VEHICULO
+            td.text-center EXPULSIÓN FUERA DEL VEHÍCULO
             td
             td Posibilidad de todo tipo de daños por mecanismos traumáticos y alta posibilidad de muerte.
           tr
@@ -412,7 +412,7 @@
                   <i class="fas fa-check" style="color:#F88F05"></i>
                   | Alta posibilidad de muerte
           tr
-            td.text-center CAIDA DE ALTURAS
+            td.text-center CAÍDA DE ALTURAS
             td Revisar altura y lugar de caída.
             td
               ul.lista-ul--color

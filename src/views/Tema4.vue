@@ -58,7 +58,7 @@
     .cajon-b.color-secundario.p-3.mb-4(data-aos="flip-up")
       .row.align-items-center
         .col-lg-1.col-md-2.col-3
-          img(src="@/assets/curso/tema4/img06.svg")
+          img(src="@/assets/curso/tema4/img06.png")
         .col-lg-11
           p.mb-0 Ahora bien, a la hora de brindar los primeros auxilios se debe tener como objetivo claro la preservación de la vida, tratando de evitar posibles complicaciones físicas y psicológicas, garantizando el traslado del herido o lesionado al centro asistencial. 
     

@@ -47,7 +47,7 @@
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: black; border-radius: 5px;")
         img(src='@/assets/curso/temas/img01.svg' style="max-width: 32px; margin-left: -16px;" data-aos="fade-right")
-        h4.col.ps-3.mb-0.text-white(data-aos="fade-right") Características de los tipos de riesgos
+        h3.col.ps-3.mb-0.text-white(data-aos="fade-right") Características de los tipos de riesgos
 
     p Por lo visto en los tipos de riesgos descritos anteriormente, también es importante conocer algunas de las características de cada uno de ellos; esto es:
 
@@ -93,12 +93,12 @@
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/img10.svg' alt='AvatarTop')
           .tarjeta.color-primario.p-4
-            p.text-center.mb-0 Infecciones.
+            p.text-center.mt-4.mb-0 Infecciones.
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="flip-up")
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/img11.svg' alt='AvatarTop')
           .tarjeta.color-primario.p-4
-            p.text-center.mb-0 Envenenamiento o efectos tóxicos.
+            p.text-center.mt-4.mb-0 Envenenamiento o efectos tóxicos.
       .col-lg-4.col-8(data-aos="fade-right")
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/img12.svg' alt='AvatarTop')

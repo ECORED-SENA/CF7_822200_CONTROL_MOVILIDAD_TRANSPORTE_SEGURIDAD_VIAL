@@ -57,7 +57,7 @@
 
     .cajon-b.color-secundario.p-3.mb-4(data-aos="flip-up")
       .row.align-items-center
-        .col-lg-1.col-2
+        .col-lg-1.col-md-2.col-3
           img(src="@/assets/curso/tema4/img06.svg")
         .col-lg-11
           p.mb-0 Ahora bien, a la hora de brindar los primeros auxilios se debe tener como objetivo claro la preservación de la vida, tratando de evitar posibles complicaciones físicas y psicológicas, garantizando el traslado del herido o lesionado al centro asistencial. 
@@ -81,7 +81,7 @@
 
     .cajon-b.color-acento-contenido.p-3.mb-4(data-aos="flip-up")
       .row.align-items-center
-        .col-lg-1.col-2
+        .col-lg-1.col-md-2.col-3
           img(src="@/assets/curso/tema4/img08.svg")
         .col-lg-11
           p.mb-0 #[b La señalización], son esas ayudas que nos permitirán hacer posible la visualización del accidente y que van a alertar a otros usuarios de la vía de la situación de emergencia que se está presentando, para que tomen las medidas pertinentes. Existen varios tipos de señalización que son las que se exponen a continuación:
@@ -126,7 +126,7 @@
       .row.align-items-center
         .col-lg-11
           p.mb-0 Existen unos aspectos importantes y esenciales que se deben tener en cuenta en el momento de brindar los primeros auxilios, luego de evaluar la zona como ya se mencionó en un tema anterior, es momento de auxiliar a la víctima o a las víctimas, por lo cual, se recomienda prestar mucha atención a los puntos que se describen a continuación, en caso de que sea usted quien se encuentre en la zona en el momento y deba auxiliarlos, estos son:
-        .col-lg-1.col-2.p-3
+        .col-lg-1.col-md-2.col-3.p-3
           img(src="@/assets/curso/tema4/img10.svg")   
     
     .BGIMG01.p-4.mb-5(data-aos="zoom-in")
@@ -175,31 +175,31 @@
     p De igual manera, es importante apoyarse en las personas presentes y especialmente si tienen conocimientos en primeros auxilios, solicitar su colaboración y repartir tareas si se determina que la emergencia es muy grave o hay varios heridos que requieren atención inmediata; se debe dar prioridad a las víctimas llevando a cabo el siguiente orden:
 
     SlyderF.mb-5(columnas="col-md-6 col-lg-4")
-      .BGR07.p-4.mb-3
+      .BGR07.p-4.m-2
         .row.justify-content-center.mb-3
           .col-6
             img(src='@/assets/curso/tema4/img19.svg' alt='AvatarTop')
         h4.text-center Primero
         p.text-center A las personas que no presentan señales de vida o cuyos signos vitales están muy débiles.
-      .BGR07.p-4.mb-3
+      .BGR07.p-4.m-2
         .row.justify-content-center.mb-3
           .col-6
             img(src='@/assets/curso/tema4/img20.svg' alt='AvatarTop')
         h4.text-center Segundo
         p.text-center A las que presentan hemorragia severa.
-      .BGR07.p-4.mb-3
+      .BGR07.p-4.m-2
         .row.justify-content-center.mb-3
           .col-6
             img(src='@/assets/curso/tema4/img21.svg' alt='AvatarTop')
         h4.text-center Tercero
         p.text-center A los que presentan quemaduras graves.
-      .BGR07.p-4.mb-3
+      .BGR07.p-4.m-2
         .row.justify-content-center.mb-3
           .col-6
             img(src='@/assets/curso/tema4/img22.svg' alt='AvatarTop')
         h4.text-center Cuarto
         p.text-center A los que presentan fracturas.
-      .BGR07.p-4.mb-3
+      .BGR07.p-4.m-2
         .row.justify-content-center.mb-3
           .col-6
             img(src='@/assets/curso/tema4/img23.svg' alt='AvatarTop')

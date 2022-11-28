@@ -44,11 +44,10 @@
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema1/img05.png")
 
-    .row.align-items-center.img02.mb-4(data-aos="fade-right")
-      .col-lg-1.col-2.img01
-        img.w-75(src="@/assets/curso/temas/img01.svg")
-      .col-auto.BG02.p-2
-        .h4.ms-5.mb-0.text-white Características de los tipos de riesgos
+    .mb-4.d-flex
+      .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: black; border-radius: 5px;")
+        img(src='@/assets/curso/temas/img01.svg' style="max-width: 32px; margin-left: -16px;" data-aos="fade-right")
+        h4.col.ps-3.mb-0.text-white(data-aos="fade-right") Características de los tipos de riesgos
 
     p Por lo visto en los tipos de riesgos descritos anteriormente, también es importante conocer algunas de las características de cada uno de ellos; esto es:
 
@@ -75,21 +74,21 @@
             p.mb-0 Este gas se genera por combustión del carbón y del diésel, formando partículas muy pequeñas que pueden ser inhaladas y altamente dañinas para niños y las personas asmáticas.
           div(titulo="Gases de efecto invernadero")
             p.mb-0 Son todos aquellos gases productos de la combustión de los vehículos y que atrapan calor en la atmósfera lo que trae como consecuencia calentamiento global.
-      .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
+      .col-lg-5.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema1/img07.png")
 
     p Aunque existan riesgos químicos directos, existen otros secundarios y que en un largo plazo también generan dichos riesgos. 
-    p <span style="background-color:#FFF6E9; padding: 2px">#[b Cacterísticas de los riesgos biológicos]:</span> las vías de entrada de los riesgos biológicos al organismo del ser humano, se presentan de la siguiente manera:
+    p.mb-5 <span style="background-color:#FFF6E9; padding: 2px">#[b Cacterísticas de los riesgos biológicos]:</span> las vías de entrada de los riesgos biológicos al organismo del ser humano, se presentan de la siguiente manera:
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-12.d-none.d-lg-flex
-        img(src="@/assets/curso/tema1/img08.svg")
+        img(src="@/assets/curso/tema1/img08.png")
       .col-12.d-lg-none.d-flex
-        img(src="@/assets/curso/tema1/img09.svg")
+        img(src="@/assets/curso/tema1/img09.png")
       
     p Los efectos que se derivan de este riesgo son enfermedades como las siguientes:
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/img10.svg' alt='AvatarTop')
@@ -114,19 +113,19 @@
           .row.mb-4
             .col-lg-5.col-6
               img(src="@/assets/curso/tema1/img13.svg")
-          .h4.mb-0 Caídas al mismo nivel y a distinto nivel.
+          .h5.mb-0 Caídas al mismo nivel y a distinto nivel.
       .col-lg-3.col-md-4.col-8.mb-md-0.mb-4(data-aos="flip-up")
         .BGR04.p-4
           .row.mb-4
             .col-lg-5.col-6
               img(src="@/assets/curso/tema1/img14.svg")
-          .h4.mb-0 Atropellos por otros vehículos y/o equipos de trabajo en movimiento.
+          .h5.mb-0 Atropellos por otros vehículos y/o equipos de trabajo en movimiento.
       .col-lg-3.col-md-4.col-8(data-aos="fade-left")
         .BGR04.p-4
           .row.mb-4
             .col-lg-5.col-6
               img(src="@/assets/curso/tema1/img15.svg")
-          .h4.mb-0 Choques simples y accidentes de tránsito.
+          .h5.mb-0 Choques simples y accidentes de tránsito.
 
     .row.justify-content-center.mb-4
       .col-lg-3.col-md-4.col-8.mb-md-0.mb-4(data-aos="fade-right")
@@ -134,19 +133,19 @@
           .row.mb-4
             .col-lg-5.col-6
               img(src="@/assets/curso/tema1/img16.svg")
-          .h4.mb-0 Atrapamientos por vehículos o por otros equipos.
+          .h5.mb-0 Atrapamientos por vehículos o por otros equipos.
       .col-lg-3.col-md-4.col-8.mb-md-0.mb-4(data-aos="flip-up")
         .BGR04.p-4
           .row.mb-4
             .col-lg-5.col-6
               img(src="@/assets/curso/tema1/img17.svg")
-          .h4.mb-0 Caída de objetos que están siendo manipulados, golpes, aplastamientos.
+          .h5.mb-0 Caída de objetos que están siendo manipulados, golpes, aplastamientos.
       .col-lg-3.col-md-4.col-8(data-aos="fade-left")
         .BGR04.p-4
           .row.mb-4
             .col-lg-5.col-6
               img(src="@/assets/curso/tema1/img18.svg")
-          .h4.mb-0 Posturas forzadas al manipular cargas.
+          .h5.mb-0 Posturas forzadas al manipular cargas.
 
     p Existen otros factores de riesgo que cada día están tomando más relevancia y son los asociados a los #[b riesgos psicosociales] derivados del estrés y la fatiga mental. Las presiones laborales y el acoso generado por la falta de planeación en el trabajo y la poca adaptación a los métodos y procesos de las empresas y en sí de la vida cotidiana, generan que las vías y los vehículos se vuelvan elementos de desahogo generando fallas en la seguridad vial y riesgos para los otros actores de la vía.
     

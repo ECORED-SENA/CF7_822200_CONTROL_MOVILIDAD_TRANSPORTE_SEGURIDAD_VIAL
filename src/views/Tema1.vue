@@ -78,7 +78,7 @@
         img(src="@/assets/curso/tema1/img07.png")
 
     p Aunque existan riesgos químicos directos, existen otros secundarios y que en un largo plazo también generan dichos riesgos. 
-    p.mb-5 <span style="background-color:#FFF6E9; padding: 2px">#[b Cacterísticas de los riesgos biológicos]:</span> las vías de entrada de los riesgos biológicos al organismo del ser humano, se presentan de la siguiente manera:
+    p.mb-5 <span style="background-color:#FFF6E9; padding: 2px">#[b Características de los riesgos biológicos]:</span> las vías de entrada de los riesgos biológicos al organismo del ser humano, se presentan de la siguiente manera:
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-12.d-none.d-lg-flex

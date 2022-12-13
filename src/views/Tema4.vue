@@ -227,8 +227,8 @@
         thead
           tr
             th(style="background-color: #FFF5C5; width: 25%;").text-center TIPO MECANISMO
-            th(style="background-color: #FFF5C5; width: 37.5%;").text-center VALORACION
-            th(style="background-color: #FFF5C5; width: 37.5%;").text-center SOSPECHA DE LESION
+            th(style="background-color: #FFF5C5; width: 37.5%;").text-center VALORACIÓN
+            th(style="background-color: #FFF5C5; width: 37.5%;").text-center SOSPECHA DE LESIÓN
         tbody    
           tr
             td.text-center COLISIÓN

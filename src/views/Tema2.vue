@@ -54,7 +54,7 @@
         .row.justify-content-center
           .col-lg-5.order-lg-1.order-2
             .h4 Equipos independientes de infraestructuras
-            p.mb-0 Si todos los equipos descritos anteriormente, no generan comunicaciones adecuadas por la magnitud de la emergencia, se recurre al uso de equipos independientes de infraestructuras, como lo equipos vía satélite y los sistemas de radio HF-VHF.
+            p.mb-0 Si todos los equipos descritos anteriormente, no generan comunicaciones adecuadas por la magnitud de la emergencia, se recurre al uso de equipos independientes de infraestructuras, como los equipos vía satélite y los sistemas de radio HF-VHF.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema2/img07.png")
 
